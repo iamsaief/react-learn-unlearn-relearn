@@ -1,6 +1,5 @@
 <div align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" style="font-size:60px;color:#58c4dc" width="1em" height="1em" fill="none" viewBox="-10.5 -9.45 21 18.9"><circle r="2" fill="currentColor"/><g stroke="currentColor"><ellipse rx="10" ry="4.5"/><ellipse rx="10" ry="4.5" transform="rotate(60)"/><ellipse rx="10" ry="4.5" transform="rotate(120)"/></g></svg>
-
+  <img height="60" src="https://svgmix.com/uploads/e86a0a-react.svg">
   <h1>React: Learn, Unlearn & Relearn ⚛️</h1>
 </div>
 
@@ -14,3 +13,6 @@ Best of luck on your programming journey—🙏✨ **Happy coding!** ⚛️💻
 💬 In case you want to reach out or just say hi, ↩️ <br/>
 <a href="https://www.facebook.com/saiefalemon">Facebook</a> | <a href="https://www.linkedin.com/in/saiefalemon">LinkedIn</a> | <a href="https://www.iamsaief.com/">Blog</a>
 </p>
+
+---
+
