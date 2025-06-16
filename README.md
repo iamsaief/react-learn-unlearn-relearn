@@ -16,57 +16,19 @@ Best of luck on your programming journey—🙏✨ **Happy coding!** ⚛️💻
 
 ---
 
+**🗂️ Table of Content**
+
 - [1. ⚡ Mastering `useEffect()` – React’s Side Effect Powerhouse](#1--mastering-useeffect--reacts-side-effect-powerhouse)
-  - [💡 Simple Analogy: Cooking with a Timer](#-simple-analogy-cooking-with-a-timer)
-  - [📝 Example 1: Fetching API Data When the Component Mounts](#-example-1-fetching-api-data-when-the-component-mounts)
-  - [📝 Example 2: Cleaning Up Event Listeners](#-example-2-cleaning-up-event-listeners)
-  - [📌 Common Mistake](#-common-mistake)
-  - [📌 Where You’ll See This in the Real World](#-where-youll-see-this-in-the-real-world)
 - [2. 📜 `useState()` Explained – Managing Component State Like a Pro](#2--usestate-explained--managing-component-state-like-a-pro)
-  - [💡 Simple Analogy: Using a Notepad for Quick Notes](#-simple-analogy-using-a-notepad-for-quick-notes)
-  - [📝 Example 1: Creating a Simple Counter](#-example-1-creating-a-simple-counter)
-  - [📝 Example 2: Handling Asynchronous State Updates](#-example-2-handling-asynchronous-state-updates)
-  - [📌 Where You’ll See This in the Real World](#-where-youll-see-this-in-the-real-world-1)
 - [3. 🔍 Harnessing `useRef()` – Direct DOM Access Without Re-Renders](#3--harnessing-useref--direct-dom-access-without-re-renders)
-  - [💡 Simple Analogy: A Bookmark in a Book](#-simple-analogy-a-bookmark-in-a-book)
-  - [📝 Example 1: Focusing an Input Field Programmatically](#-example-1-focusing-an-input-field-programmatically)
-  - [📝 Example 2: Tracking Previous State Without Affecting Re-Renders](#-example-2-tracking-previous-state-without-affecting-re-renders)
-  - [📌 Where You’ll See This in the Real World](#-where-youll-see-this-in-the-real-world-2)
 - [4. 🌍 React Context API – Say Goodbye to Prop Drilling](#4--react-context-api--say-goodbye-to-prop-drilling)
-  - [💡 Simple Analogy: A Public Bulletin Board](#-simple-analogy-a-public-bulletin-board)
-  - [📝 Example 1: Creating a Theme Context](#-example-1-creating-a-theme-context)
-  - [📝 Example 2: Using Context in Components](#-example-2-using-context-in-components)
-  - [📌 Where You’ll See This in the Real World:](#-where-youll-see-this-in-the-real-world-3)
 - [5. 🚀 Boosting React Performance with `React.memo()` \& `useMemo()`](#5--boosting-react-performance-with-reactmemo--usememo)
-  - [💡 Simple Analogy: Using a Cheat Sheet Instead of Rewriting Notes](#-simple-analogy-using-a-cheat-sheet-instead-of-rewriting-notes)
-  - [📝 Example 1: Preventing Unnecessary Re-Renders with `React.memo()`](#-example-1-preventing-unnecessary-re-renders-with-reactmemo)
-  - [📝 Example 2: Optimizing Expensive Computations with `useMemo()`](#-example-2-optimizing-expensive-computations-with-usememo)
-  - [📌 Where You’ll See This in the Real World:](#-where-youll-see-this-in-the-real-world-4)
 - [6. ⚙️ Optimizing Performance with `useCallback()` – Prevent Unnecessary Function Re-Creation](#6-️-optimizing-performance-with-usecallback--prevent-unnecessary-function-re-creation)
-  - [💡 Simple Analogy: Giving Instructions Instead of Repeating a Recipe](#-simple-analogy-giving-instructions-instead-of-repeating-a-recipe)
-  - [📝 Example 1 (Simple): Memoizing a Click Handler to Prevent Function Re-Creation](#-example-1-simple-memoizing-a-click-handler-to-prevent-function-re-creation)
-  - [📝 Example 2 (Complex): Preventing Re-Renders in a Child Component](#-example-2-complex-preventing-re-renders-in-a-child-component)
-  - [📌 Where You’ll See This in the Real World:](#-where-youll-see-this-in-the-real-world-5)
 - [7. 🔁 `useReducer()` vs `useState()` – Managing Complex State Like a Pro](#7--usereducer-vs-usestate--managing-complex-state-like-a-pro)
-  - [💡 Simple Analogy: A Mail Sorting System](#-simple-analogy-a-mail-sorting-system)
-  - [📝 Example 1 (Simple): Basic Counter Using `useReducer()`](#-example-1-simple-basic-counter-using-usereducer)
-  - [📝 Example 2 (Complex): Managing a Todo List](#-example-2-complex-managing-a-todo-list)
-  - [📌 Where You’ll See This in the Real World:](#-where-youll-see-this-in-the-real-world-6)
 - [8. 🔄 Creating Custom Hooks – Make Your React Code Reusable \& Scalable](#8--creating-custom-hooks--make-your-react-code-reusable--scalable)
-  - [💡 Simple Analogy: Making a Universal Phone Charger Instead of Multiple Adapters](#-simple-analogy-making-a-universal-phone-charger-instead-of-multiple-adapters)
-  - [📝 Example 1 (Simple): Creating a `useFetch()` Hook for API Calls](#-example-1-simple-creating-a-usefetch-hook-for-api-calls)
-  - [📝 Example 2 (Complex): Creating a `useDebounce()` Hook to Improve Input Performance](#-example-2-complex-creating-a-usedebounce-hook-to-improve-input-performance)
-  - [📌 Where You’ll See This in the Real World:](#-where-youll-see-this-in-the-real-world-7)
 - [9. 📤 Mastering React Portals – Rendering Outside the Main DOM](#9--mastering-react-portals--rendering-outside-the-main-dom)
-  - [💡 Simple Analogy: A VIP Entrance in a Theater](#-simple-analogy-a-vip-entrance-in-a-theater)
-  - [📝 Example 1 (Simple): Creating a Modal Using Portals](#-example-1-simple-creating-a-modal-using-portals)
-  - [📝 Example 2 (Complex): Creating a Click-to-Open Modal with Portals](#-example-2-complex-creating-a-click-to-open-modal-with-portals)
-  - [📌 Where You’ll See This in the Real World:](#-where-youll-see-this-in-the-real-world-8)
 - [10. ⚡ Unlocking Concurrent Rendering – Making React Apps Faster \& Smoother](#10--unlocking-concurrent-rendering--making-react-apps-faster--smoother)
-  - [💡 Simple Analogy: Ordering Coffee While Waiting for Food](#-simple-analogy-ordering-coffee-while-waiting-for-food)
-  - [📝 Example 1 (Simple): Using `startTransition()` to Prioritize UI Updates](#-example-1-simple-using-starttransition-to-prioritize-ui-updates)
-  - [📝 Example 2 (Complex): Preventing UI Freezes in Large Lists](#-example-2-complex-preventing-ui-freezes-in-large-lists)
-  - [📌 Where You’ll See This in the Real World](#-where-youll-see-this-in-the-real-world-9)
+- [11.](#11)
 
 ---
 
@@ -138,7 +100,7 @@ Forgetting to **remove event listeners**, leading to unnecessary listeners stack
 - **Setting up intervals for animations**
 - **Managing WebSocket connections**
 
-<br>
+---
 
 ## 2. 📜 `useState()` Explained – Managing Component State Like a Pro
 
@@ -200,7 +162,7 @@ const MessageComponent = () => {
 - **Handling UI state** (modals, notifications)
 - **Storing API responses**
 
-<br>
+---
 
 ## 3. 🔍 Harnessing `useRef()` – Direct DOM Access Without Re-Renders
 
@@ -278,7 +240,7 @@ const PrevValue = () => {
 - **Tracking previous values for animations or calculations**
 - **Storing mutable values that shouldn’t cause re-renders**
 
-<br>
+---
 
 ## 4. 🌍 React Context API – Say Goodbye to Prop Drilling
 
@@ -330,7 +292,7 @@ return <div style={{ backgroundColor: theme === "dark" ? "#333" : "#fff" }}>Them
 - **Theme switching & user preferences**
 - **Multi-language support across components**
 
-<br>
+---
 
 ## 5. 🚀 Boosting React Performance with `React.memo()` & `useMemo()`
 
@@ -378,7 +340,7 @@ const ExpensiveCalculation = ({ num }) => {
 - **Preventing unnecessary component re-renders**
 - **Reducing lag in UI-heavy applications**
 
-<br>
+---
 
 ## 6. ⚙️ Optimizing Performance with `useCallback()` – Prevent Unnecessary Function Re-Creation
 
@@ -454,7 +416,7 @@ const Parent = () => {
 - **Avoiding unnecessary function re-renders in heavy UI interactions**
 - **Reducing expensive calculations inside event handlers**
 
-<br>
+---
 
 ## 7. 🔁 `useReducer()` vs `useState()` – Managing Complex State Like a Pro
 
@@ -560,7 +522,7 @@ const TodoApp = () => {
 - **Handling complex user interactions that require multiple updates**
 - **Using Redux-like patterns inside React without installing external libraries**
 
-<br>
+---
 
 ## 8. 🔄 Creating Custom Hooks – Make Your React Code Reusable & Scalable
 
@@ -660,7 +622,7 @@ const SearchBar = () => {
 - **Handling authentication state globally**
 - **Managing reusable UI behaviors** (animations, form validation, debounce functions, etc.)
 
-<br>
+---
 
 ## 9. 📤 Mastering React Portals – Rendering Outside the Main DOM
 
@@ -741,7 +703,7 @@ const App = () => {
 - **Rendering tooltips that need proper positioning**
 - **Managing notifications that should appear outside the main component hierarchy**
 
-<br>
+---
 
 ## 10. ⚡ Unlocking Concurrent Rendering – Making React Apps Faster & Smoother
 
@@ -835,3 +797,7 @@ const LargeList = ({ items }) => {
 - **Handling search inputs without freezing UI**
 - **Preventing lag in large lists and data-heavy applications**
 - **Improving user experience in animations and dynamic rendering**
+
+---
+
+## 11.
