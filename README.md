@@ -28,7 +28,6 @@ Best of luck on your programming journey—🙏✨ **Happy coding!** ⚛️💻
 - [8. 🔄 Creating Custom Hooks – Make Your React Code Reusable \& Scalable](#8--creating-custom-hooks--make-your-react-code-reusable--scalable)
 - [9. 📤 Mastering React Portals – Rendering Outside the Main DOM](#9--mastering-react-portals--rendering-outside-the-main-dom)
 - [10. ⚡ Unlocking Concurrent Rendering – Making React Apps Faster \& Smoother](#10--unlocking-concurrent-rendering--making-react-apps-faster--smoother)
-- [11.](#11)
 
 ---
 
@@ -100,7 +99,7 @@ Forgetting to **remove event listeners**, leading to unnecessary listeners stack
 - **Setting up intervals for animations**
 - **Managing WebSocket connections**
 
----
+<br>
 
 ## 2. 📜 `useState()` Explained – Managing Component State Like a Pro
 
@@ -162,7 +161,7 @@ const MessageComponent = () => {
 - **Handling UI state** (modals, notifications)
 - **Storing API responses**
 
----
+<br>
 
 ## 3. 🔍 Harnessing `useRef()` – Direct DOM Access Without Re-Renders
 
@@ -240,7 +239,7 @@ const PrevValue = () => {
 - **Tracking previous values for animations or calculations**
 - **Storing mutable values that shouldn’t cause re-renders**
 
----
+<br>
 
 ## 4. 🌍 React Context API – Say Goodbye to Prop Drilling
 
@@ -292,7 +291,7 @@ return <div style={{ backgroundColor: theme === "dark" ? "#333" : "#fff" }}>Them
 - **Theme switching & user preferences**
 - **Multi-language support across components**
 
----
+<br>
 
 ## 5. 🚀 Boosting React Performance with `React.memo()` & `useMemo()`
 
@@ -340,7 +339,7 @@ const ExpensiveCalculation = ({ num }) => {
 - **Preventing unnecessary component re-renders**
 - **Reducing lag in UI-heavy applications**
 
----
+<br>
 
 ## 6. ⚙️ Optimizing Performance with `useCallback()` – Prevent Unnecessary Function Re-Creation
 
@@ -416,7 +415,7 @@ const Parent = () => {
 - **Avoiding unnecessary function re-renders in heavy UI interactions**
 - **Reducing expensive calculations inside event handlers**
 
----
+<br>
 
 ## 7. 🔁 `useReducer()` vs `useState()` – Managing Complex State Like a Pro
 
@@ -522,7 +521,7 @@ const TodoApp = () => {
 - **Handling complex user interactions that require multiple updates**
 - **Using Redux-like patterns inside React without installing external libraries**
 
----
+<br>
 
 ## 8. 🔄 Creating Custom Hooks – Make Your React Code Reusable & Scalable
 
@@ -570,11 +569,11 @@ const Component = () => {
 
 **💡 Explanation:**
 
-- **\*`useFetch(url)` handles API calls**, making it **reusable for multiple components**.
+- **`useFetch(url)` handles API calls**, making it **reusable for multiple components**.
 
 - This **prevents repetitive logic**, improving **maintainability**.
 
-- Any component using `useFetch()` automati**cally gets loading state and data**, making it **simpler and more efficient**.
+- Any component using `useFetch()` **automatically gets loading state and data**, making it **simpler and more efficient**.
 
 **📌 Common Mistake:** Not adding a **dependency array (`[url]`) in `useEffect()`**, leading to **uncontrolled API calls**.
 
@@ -622,7 +621,7 @@ const SearchBar = () => {
 - **Handling authentication state globally**
 - **Managing reusable UI behaviors** (animations, form validation, debounce functions, etc.)
 
----
+<br>
 
 ## 9. 📤 Mastering React Portals – Rendering Outside the Main DOM
 
@@ -703,7 +702,7 @@ const App = () => {
 - **Rendering tooltips that need proper positioning**
 - **Managing notifications that should appear outside the main component hierarchy**
 
----
+<br>
 
 ## 10. ⚡ Unlocking Concurrent Rendering – Making React Apps Faster & Smoother
 
@@ -798,6 +797,4 @@ const LargeList = ({ items }) => {
 - **Preventing lag in large lists and data-heavy applications**
 - **Improving user experience in animations and dynamic rendering**
 
----
-
-## 11.
+<br>
