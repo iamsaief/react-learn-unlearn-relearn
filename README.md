@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="80" src="https://svgmix.com/uploads/e86a0a-react.svg">
+  <img height="80" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
   <h1>React: Learn, Unlearn & Relearn ⚛️</h1>
 </div>
 
